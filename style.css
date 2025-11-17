@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+     font-family: "Montserrat", sans-serif;
+    background-color: bisque;
+}
+
+
+.container {
+    background-color: bisque;
+    /* height: 100vh; */
+}
+
+.main-container {
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.image-container img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.title-container h2 {
+    font-size: 26px;
+    margin: 20px 0px 8px 0px;
+}
+
+.title-container p {
+    font-size: 10px;
+    margin: 0px 0px 10px 0px;
+    line-height: 15px;
+}
+
+.preparation-container {
+    background-color: rgb(255, 235, 238);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 0px rgba(191,179,179,0.75);
+}
+
+.preparation-container h5 {
+    color:purple;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.preparation-container li {
+    font-size: 10px;
+    margin: 7px 0px;
+}
+
+.ingredient-container h3 {
+    color: rgb(177, 77, 6);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.ingredient-container li {
+    font-size: 10px;
+    margin: 7px 0px;
+}
+
+.instruction-container h3 {
+    color: rgb(177, 77, 6);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.instruction-container li {
+    font-size: 10px;
+    margin: 7px 0px;
+}
+
+ul, ol {
+    padding: 0px 0px 0px 20px;
+}
+
+.nutrition-container h3 {
+     color: rgb(177, 77, 6);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.nutrition-container p {
+    font-size: 10px;
+
+}
+
+.nutrition-container table {
+    width: 100%;
+}
+
+.nutrition-container td {
+    font-size: 10px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.nutrition-container .browns {
+    color: brown;
+    font-weight: 800;
+}
